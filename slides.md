@@ -5,7 +5,7 @@ theme: default
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: Aptly
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -50,8 +50,7 @@ transition: fade-out
 
 ## Agenda
 
-
-Building a robust B2B (Business-to-Business) application requires careful selection of tools and services that handle Customer Identity and Access Management (IAM), user management, feature flagging, and other critical functionalities. In this comparison, we'll evaluate a set of proprietary tools—**Frontegg**, **WorkOS**, **Descope**, **BoxyHQ**—alongside cloud services like **Microsoft Entra B2B** and open-source solutions such as **Keycloak**. This analysis will help you understand the strengths and weaknesses of each option, enabling informed decision-making for your B2B app development.
+Building a robust B2B (Business-to-Business) application for delegation of authority and decision management requires careful selection of tools and services that handle Customer Identity and Access Management (IAM), user management, feature flagging, and other critical functionalities. In this comparison, we'll evaluate a set of proprietary tools—**Frontegg**, **WorkOS**, **Descope**, **BoxyHQ**—alongside cloud services like **Microsoft Entra B2B** and open-source solutions such as **Keycloak**. This analysis will help you understand the strengths and weaknesses of each option, enabling informed decision-making for your B2B app development.
 
 ---
 

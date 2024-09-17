@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -48,7 +48,8 @@ The last comment block of each slide will be treated as slide notes. It will be 
 transition: fade-out
 ---
 
-# Agenda
+## Agenda
+
 
 Building a robust B2B (Business-to-Business) application requires careful selection of tools and services that handle Customer Identity and Access Management (IAM), user management, feature flagging, and other critical functionalities. In this comparison, we'll evaluate a set of proprietary tools—**Frontegg**, **WorkOS**, **Descope**, **BoxyHQ**—alongside cloud services like **Microsoft Entra B2B** and open-source solutions such as **Keycloak**. This analysis will help you understand the strengths and weaknesses of each option, enabling informed decision-making for your B2B app development.
 

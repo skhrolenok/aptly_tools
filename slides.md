@@ -435,8 +435,7 @@ When building a B2B app, combining multiple services can optimize functionality 
 | Requirement                          | Frontegg                            | WorkOS                              | Descope                             | BoxyHQ                             | Microsoft Entra B2B                | Keycloak                           |
 |--------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|------------------------------------|------------------------------------|------------------------------------|
 | **Create Custom Groups**  | Yes (supports custom user groups)   | Yes (directory sync with group support) | Limited   | Yes (for permissions and flags)   | Yes (via Azure AD groups)           | Yes (custom groups supported)      |
-| **Custom Actions**                   | Yes (through APIs and custom workflows) | Yes (via directory sync and custom workflows) | Yes (with APIs and rules)           | Yes (via feature management APIs)  | Yes (via Azure logic apps and APIs) | Yes (fully customizable)           |
-| **Multi-Currency**                   | No                                  | No                                   | No                                  |No                                  | Yes (via Microsoft 365 Business) | No (needs customization)
+| **Custom Actions**                   | Yes (through APIs, custom workflows) | Yes (via directory sync, custom workflows) | Yes (with APIs and rules)           | Yes (via feature management APIs)  | Yes (via Azure logic apps and APIs) | Yes (fully customizable)           |
 
 ---
 
@@ -459,7 +458,6 @@ When building a B2B app, combining multiple services can optimize functionality 
 - **Delegation**: Comprehensive support for delegation, including expiration, conditions, and roles.
 - **Groups/Custom Actions**: Allows for creating custom groups and supports custom workflows/actions through APIs.
 - **Document Oversight**: Limited to user tracking rather than document-specific oversight.
-- **Multi-Currency**: Not natively supported.
 - **SCIM Support**: Yes, fully supports SCIM for user provisioning and de-provisioning.
 - **API Access**: Comprehensive APIs available for full-feature management and integration.
 
@@ -473,7 +471,6 @@ When building a B2B app, combining multiple services can optimize functionality 
 - **Delegation**: Advanced features for delegation roles, conditions, and expirations.
 - **Groups/Custom Actions**: Supports group management through directory sync and allows custom workflows via APIs.
 - **Document Oversight**: Not a primary feature but can be implemented with third-party tools.
-- **Multi-Currency**: Not supported.
 - **SCIM Support**: Fully supports SCIM for directory synchronization and user provisioning.
 - **API Access**: Extensive API support to integrate WorkOS functionality into custom applications.
 
@@ -487,7 +484,6 @@ When building a B2B app, combining multiple services can optimize functionality 
 - **Delegation**: Limited functionality for delegation roles and expirations.
 - **Groups/Custom Actions**: Some group-based roles, but custom actions are limited compared to more flexible platforms.
 - **Document Oversight**: Not available.
-- **Multi-Currency**: Not natively supported.
 - **SCIM Support**: No SCIM support.
 - **API Access**: Full access to APIs, enabling integration and extension.
 
@@ -501,7 +497,6 @@ When building a B2B app, combining multiple services can optimize functionality 
 - **Delegation**: Limited to feature flags and permission management, with no comprehensive delegation framework.
 - **Groups/Custom Actions**: Supports custom groups for feature permissions and APIs for actions.
 - **Document Oversight**: Not supported.
-- **Multi-Currency**: Not supported.
 - **SCIM Support**: Not supported.
 - **API Access**: Provides APIs for managing feature flags and permissions but not as comprehensive as other IAM-focused tools.
 
@@ -515,7 +510,6 @@ When building a B2B app, combining multiple services can optimize functionality 
 - **Delegation**: Extensive delegation controls, including expirations, conditions, and roles via Azure policies.
 - **Groups/Custom Actions**: Supports custom groups and dynamic group memberships via Azure AD.
 - **Document Oversight**: Available through Microsoft 365 tools (e.g., SharePoint, Teams).
-- **Multi-Currency**: Supported through integration with Microsoft 365 and other business tools.
 - **SCIM Support**: Fully supports SCIM for provisioning external users.
 - **API Access**: Comprehensive API access for managing identities, users, and B2B interactions.
 
@@ -529,7 +523,6 @@ When building a B2B app, combining multiple services can optimize functionality 
 - **Delegation**: Comprehensive delegation framework with customizable expiration, roles, and conditions.
 - **Groups/Custom Actions**: Fully supports custom groups and actions via APIs and configuration.
 - **Document Oversight**: Not natively supported; requires external integration.
-- **Multi-Currency**: Not natively supported; needs customization.
 - **SCIM Support**: Fully supports SCIM.
 - **API Access**: Comprehensive API support, enabling extensive customization and integration.
 

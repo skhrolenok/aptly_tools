@@ -50,7 +50,9 @@ transition: fade-out
 
 ## Agenda
 
-Building a robust B2B (Business-to-Business) application for delegation of authority and decision management requires careful selection of tools and services that handle Customer Identity and Access Management (IAM), user management, feature flagging, and other critical functionalities. In this comparison, we'll evaluate a set of proprietary tools—**Frontegg**, **WorkOS**, **Descope**, **BoxyHQ**—alongside cloud services like **Microsoft Entra B2B** and open-source solutions such as **Keycloak**. This analysis will help you understand the strengths and weaknesses of each option, enabling informed decision-making for your B2B app development.
+Building a robust B2B (Business-to-Business) application for delegation of authority and decision management requires careful selection of tools and services that handle Customer Identity and Access Management (IAM), user management, feature flagging, and other critical functionalities. 
+
+In this comparison, we'll evaluate a set of proprietary tools—**Frontegg**, **WorkOS**, **Descope**, **BoxyHQ**—alongside cloud services like **Microsoft Entra B2B** and open-source solutions such as **Keycloak**. This analysis will help you understand the strengths and weaknesses of each option, enabling informed decision-making for your B2B app development.
 
 ---
 
@@ -139,7 +141,7 @@ Keycloak is an open-source IAM solution offering SSO, identity federation, user 
 
 ### **Ease of Integration**
 
-- **Frontegg**: Offers SDKs and pre-built UI components for rapid integration. Good documentation and support facilitate smooth setup.
+- **Frontegg**: Offers __SDKs and pre-built UI components__ for rapid integration. Good documentation and support facilitate smooth setup.
   
 - **WorkOS**: Provides extensive APIs and supports popular programming languages and frameworks. Integration with enterprise systems is streamlined.
   
@@ -157,7 +159,9 @@ Keycloak is an open-source IAM solution offering SSO, identity federation, user 
 
 ### **Scalability**
 
-All tools and services evaluated are designed to handle enterprise-scale applications. Proprietary solutions like Frontegg, WorkOS, Descope, BoxyHQ, and Microsoft Entra B2B offer cloud-native scalability. Keycloak, being open-source, relies on the underlying infrastructure for scalability but can scale effectively when properly configured.
+All tools and services evaluated are designed to handle enterprise-scale applications. Proprietary solutions like Frontegg, WorkOS, Descope, BoxyHQ, and Microsoft Entra B2B offer cloud-native scalability. 
+
+Keycloak, being open-source, relies on the underlying infrastructure for scalability but can scale effectively when properly configured.
 
 ---
 
@@ -185,15 +189,15 @@ All tools and services evaluated are designed to handle enterprise-scale applica
 
 - **Frontegg**: Implements industry-standard security measures, including encryption, MFA, and compliance certifications.
   
-- **WorkOS**: Focuses on enterprise security with features like SSO, MFA, and compliance adherence.
+- **WorkOS**: Focuses on enterprise security with features like __SSO, MFA, and compliance__ adherence.
   
 - **Descope**: Emphasizes security with advanced authentication methods and compliance.
   
 - **BoxyHQ**: Secures feature management with role-based access and compliance features.
   
-- **Microsoft Entra B2B**: Leverages Microsoft's robust security infrastructure, including advanced threat protection and compliance certifications.
+- **Microsoft Entra B2B**: Leverages Microsoft's robust __security infrastructure, including advanced threat protection and compliance certifications__.
   
-- **Keycloak**: Offers strong security features, including SSO, MFA, and support for various protocols (OAuth2, SAML). Security depends on proper configuration and maintenance.
+- **Keycloak**: Offers __strong security features, including SSO, MFA, and support for various protocols (OAuth2, SAML)__. Security depends on proper configuration and maintenance.
 
 ---
 
@@ -219,7 +223,7 @@ All tools and services evaluated are designed to handle enterprise-scale applica
 
 ### **Customization and Extensibility**
 
-- **Frontegg**: Highly customizable with pre-built components that can be tailored to fit the application’s branding and workflow.
+- **Frontegg**: Highly __customizable with pre-built components__ that can be tailored to fit the application’s branding and workflow.
   
 - **WorkOS**: Moderate customization, primarily focused on enterprise features.
   
@@ -229,7 +233,7 @@ All tools and services evaluated are designed to handle enterprise-scale applica
   
 - **Microsoft Entra B2B**: Customizable within the Microsoft ecosystem, but may have limitations outside it.
   
-- **Keycloak**: Highly customizable and extensible, supporting custom protocols, themes, and integrations.
+- **Keycloak**: __Highly customizable and extensible__, supporting custom protocols, themes, and integrations.
 
 ---
 
@@ -360,6 +364,10 @@ When building a B2B app, combining multiple services can optimize functionality 
 ### **Feature Flagging and Permissions Management**
 
 - **BoxyHQ** stands out for feature flagging and permissions management. It can be integrated with various IAM solutions to control feature access dynamically.
+
+- **Frontegg** excels in customer identity and access management (CIAM) solutions, its native support for Feature Flagging is limited compared to dedicated tools like LaunchDarkly or BoxyHQ.
+
+- **Descope** is more focused on passwordless authentication and identity management rather than feature flagging. Since Descope lacks robust feature flagging support, it's best to integrate it with a tool like FeatureFlag or Optimizely.
 
 ---
 

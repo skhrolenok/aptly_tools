@@ -108,7 +108,7 @@ Keycloak is an open-source IAM solution offering SSO, identity federation, user 
 
 | Feature           | Frontegg                               | WorkOS                                | Descope                             | BoxyHQ                             | Microsoft Entra B2B                | Keycloak                           |
 |--------------------------|----------------------------------------|---------------------------------------|-------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-| **Authentication**       | Yes (incl. SSO, MFA)                   | Yes (Enterprise SSO)                  | Yes (Passwordless, MFA)             | No                                 | Yes (SSO, MFA)                     | Yes (SSO, MFA)                     |
+| **Authentication**       | Yes (incl. SSO, MFA)                   | Yes (Enterprise SSO)                  | Yes (Passwordless, MFA, SSO)             | No                                 | Yes (SSO, MFA)                     | Yes (SSO, MFA)                     |
 | **Authorization**        | Role-based access control (RBAC)       | RBAC, Attribute-based access control  | RBAC, Fine-grained permissions      | Feature flagging, Permissions      | RBAC, Conditional access           | RBAC, Policy-based access control  |
 | **User Management**     | Comprehensive user lifecycle management| User provisioning, Directory sync     | User profiles, Lifecycle management | N/A                                | External user management           | Comprehensive user lifecycle mgmt   
 
@@ -132,7 +132,7 @@ Keycloak is an open-source IAM solution offering SSO, identity federation, user 
 
 | Feature           | Frontegg                               | WorkOS                                | Descope                             | BoxyHQ                             | Microsoft Entra B2B                | Keycloak                           |
 |--------------------------|----------------------------------------|---------------------------------------|-------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-| **SCIM Support**                     | Yes                                 | Yes                                  | No                                  | No                                | Yes                                | Yes                                |
+| **SCIM Support**                     | Yes                                 | Yes                                  | Yes                                  | No                                | Yes                                | Yes                                |
 | **API Access**                       | Comprehensive API support            | Extensive API support                | Full API access with subscription   | API access for feature management  | Comprehensive API support | Comprehensive API support
 
 ---
